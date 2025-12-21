@@ -1,0 +1,4 @@
+pytelegrambotapi
+openpyxl
+psutil
+threading
