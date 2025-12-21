@@ -1,4 +1,4 @@
-pytelegrambotapi
+telebot
 openpyxl
 psutil
-threading
+
