@@ -43,7 +43,6 @@ def callback_message(callback):
         bot.delete_message(callback.message.chat.id, callback.message.message_id)
         scheduleS(callback.message)
     elif callback.data == 'regions':
-        bot.delete_message(callback.message.chat.id, callback.message.message_id)
         region(callback.message)
     elif callback.data == 'answers':
         faq(callback.message)
